@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    list-style: none;
+}
+
+input{
+    border: 1px solid;
+    border-radius: 3px;
+    
+}
+
+button{
+    border: 1px solid;
+    border-radius: 3px;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container{
+    background-color: blueviolet;
+    width: 350px;
+    height: 300px;
+    padding: 1% 2%;
+    border-radius: 8px;
+    
+}
+
+h1, h3{
+    text-align: center;
+}
+
+h1{
+    font-size: 1.1em;
+}
+
+h3{
+    font-size: 1.4em;
+}
+
+form{
+    display: none;
+    height: 100%;
+}
+
+form>.user-input{
+    padding-top: 4%;
+    text-align: center;
+}
+
+.user-input>input{
+    height: 30px;
+    width: 90%;
+    padding: 0.5%;
+}
+
+.btn-box{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: block;
+    text-align: center;
+}
+
+.btn-box>button{
+    height: 30px;
+    width: 40%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.align-button-right{
+    text-align: right;
+    padding-right: 4%;
+}
+
+button:hover{
+    box-shadow: 0 0 0 2px #000000;
+}
+
+.form-step-active{
+    display: block;
+}

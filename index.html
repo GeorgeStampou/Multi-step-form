@@ -4,8 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My form</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <main class="container">
+        <form id="form1" class="form-step-active"> 
+            <h1>Step 1</h1>
+            <h3>Create Account</h3>
+            <div class="user-input">
+                <input type="text" id="username" name="username" placeholder="Username" required>
+            </div>
+            <div class="user-input">
+                <input type="email" id="email" name="email" placeholder="Email" required>
+            </div>
+            <div class="user-input">
+                <input type="password" name="password" id="password" placeholder="Password" minlength="8" required>
+            </div>
+            <div class="user-input">
+                <input type="password" name="retype-pass" id="retype-pass" placeholder="Retype password" minlength="8" required>
+            </div>
+            <div class="btn-box align-button-right">
+                <button type="submit" id="next1">Next</button>
+            </div>
+                
+        </form>
+        <form id="form2">
+            <h1>Step 2</h1>
+            <h3>Account Details</h3>
+            <div class="user-input">
+                <input type="text" id="username" name="username" placeholder="Username" required>
+            </div>
+            <div class="user-input">
+                <input type="email" id="email" name="email" placeholder="Email" required>
+            </div>
+            <div class="user-input">
+                <input type="password" name="password" id="password" placeholder="Password" minlength="8" required>
+            </div>
+            <div class="user-input">
+                <input type="password" name="retype-pass" id="retype-pass" placeholder="Retype password" minlength="8" required>
+            </div>
+            <div class="btn-box align-button-right">
+                <button type="button" id="back2">Back</button>
+                <button type="submit" id="next2">Next</button>
+            </div>
+
+        </form>
+        <form class="form3">
+
+        </form>
+        
+    </main>
+    <script src="script.js"></script>
 </body>
 </html>
