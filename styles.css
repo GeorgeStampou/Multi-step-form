@@ -4,6 +4,7 @@
     border: 0;
     font-size: 100%;
     list-style: none;
+    
 }
 
 input{
@@ -22,12 +23,13 @@ body{
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+    background: linear-gradient(120deg, #e66465, #9198e5);
 }
 
 .container{
     background-color: blueviolet;
     width: 350px;
-    height: 300px;
+    height: 340px;
     padding: 1% 2%;
     border-radius: 8px;
     
@@ -38,7 +40,7 @@ h1, h3{
 }
 
 h1{
-    font-size: 1.1em;
+    font-size: 1.2em;
 }
 
 h3{
@@ -51,18 +53,44 @@ form{
 }
 
 form>.user-input{
-    padding-top: 4%;
+    padding-top: 1%;
     text-align: center;
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    flex-direction: column;
+    align-items: self-start;
 }
 
-.user-input>input{
+form>.user-input-row{
+    flex-direction: row;
+    text-align:left;
+}
+
+
+
+.user-input>label, .labels>label{
+    margin-left: 4%;
+    font-size: 1.2em;
+    font-weight: 500;
+    margin-right: 4%;
+}
+
+.user-input>input, .inputs>input{
     height: 30px;
     width: 90%;
     padding: 0.5%;
     margin-left: 4%;
+}
+
+#labels{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#inputs{
+    display: flex;
+    flex-direction: row;
 }
 
 #city{
@@ -80,8 +108,9 @@ form>.user-input{
 
 #label-newsletter, #label-terms{
     font-size: 1.1em;
-    font-weight: bold;
+    font-weight: 500;
     margin-right: 4%;
+    align-self: center;
 }
 
 .btn-box{
@@ -91,13 +120,11 @@ form>.user-input{
     text-align: center;
 }
 
-.btn-box2{
-    margin-top: 6.5%;
+.btn-box-margin{
+    margin-top: 8.5%;
 }
 
-.btn-box3{
-    margin-top: 4.5%;
-}
+
 
 .btn-box-form1{
     display: flex;
@@ -128,9 +155,15 @@ button:hover{
 }
 
 .terms{
-    padding-top: 2%;
+    padding-top: 4%;
     display: table;
     width: 90%;
     text-align: justify;
     margin: auto;
+    font-size: 1.1em;
+}
+
+.user-input-finish{
+    margin-top: 4%;
+    
 }
