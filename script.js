@@ -17,7 +17,7 @@ finishButton.addEventListener("click",function(){finish(form3)});
 
 function change(firstElement, secondElement){
     firstElement.classList.remove("form-step-active");
-    firstElement.submit();
+    /*firstElement.submit();*/
     secondElement.classList.add("form-step-active");
 }
 

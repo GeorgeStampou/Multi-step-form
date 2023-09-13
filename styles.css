@@ -74,11 +74,11 @@ form>.user-input{
     margin-right: 4%;
 }
 
-#newsletter{
+#newsletter, #terms{
     width: 10%;
 }
 
-#label-newsletter{
+#label-newsletter, #label-terms{
     font-size: 1.1em;
     font-weight: bold;
     margin-right: 4%;
@@ -86,10 +86,17 @@ form>.user-input{
 
 .btn-box{
     margin-top: 5%;
-    margin-bottom: 5%;
     display: flex;
     justify-content: space-between;
     text-align: center;
+}
+
+.btn-box2{
+    margin-top: 6.5%;
+}
+
+.btn-box3{
+    margin-top: 4.5%;
 }
 
 .btn-box-form1{
@@ -118,4 +125,12 @@ button:hover{
 
 .form-step-active{
     display: block;
+}
+
+.terms{
+    padding-top: 2%;
+    display: table;
+    width: 90%;
+    text-align: justify;
+    margin: auto;
 }
