@@ -59,12 +59,12 @@ h3{
     font-size: 1.4em;
 }
 
-form{
+.div-form{
     display: none;
     height: 100%;
 }
 
-form>.user-input{
+div>.user-input{
     padding-top: 1%;
     text-align: center;
     display: flex;
@@ -72,7 +72,7 @@ form>.user-input{
     align-items: self-start;
 }
 
-form>.user-input-row{
+div>.user-input-row{
     flex-direction: row;
     text-align:left;
 }
