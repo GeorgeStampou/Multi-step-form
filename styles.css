@@ -64,8 +64,14 @@ form>.user-input{
 .btn-box{
     margin-top: 5%;
     margin-bottom: 5%;
-    display: block;
+    display: flex;
+    justify-content: space-between;
     text-align: center;
+}
+
+.btn-box-form1{
+    display: flex;
+    justify-content: flex-end;
 }
 
 .btn-box>button{
@@ -76,8 +82,11 @@ form>.user-input{
 }
 
 .align-button-right{
-    text-align: right;
-    padding-right: 4%;
+    margin-right: 4%;
+}
+
+.align-button-left{
+    margin-left: 4%;
 }
 
 button:hover{
