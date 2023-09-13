@@ -53,12 +53,35 @@ form{
 form>.user-input{
     padding-top: 4%;
     text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .user-input>input{
     height: 30px;
     width: 90%;
     padding: 0.5%;
+    margin-left: 4%;
+}
+
+#city{
+    width: 65%;
+}
+
+#zip-code{
+    width: 30%;
+    margin-right: 4%;
+}
+
+#newsletter{
+    width: 10%;
+}
+
+#label-newsletter{
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-right: 4%;
 }
 
 .btn-box{
