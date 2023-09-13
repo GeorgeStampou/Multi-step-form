@@ -10,12 +10,23 @@
 input{
     border: 1px solid;
     border-radius: 3px;
+    background-color: #cceeef;
     
 }
+
 
 button{
     border: 1px solid;
     border-radius: 3px;
+    background-color: #013335;
+    color: #cceeef;
+}
+
+button:hover{
+    background-color: #cceeef;
+    color: #013335;
+    box-shadow: 0 0 0 2px #000000;
+    transition: 0.3s;
 }
 
 body{
@@ -23,15 +34,16 @@ body{
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: linear-gradient(120deg, #e66465, #9198e5);
+    background: linear-gradient(120deg, #02aab0, #00cdac);
 }
 
 .container{
-    background-color: blueviolet;
+    background-color: rgba(35, 50, 64, 0.4);
     width: 350px;
     height: 340px;
     padding: 1% 2%;
     border-radius: 8px;
+    
     
 }
 
@@ -146,9 +158,6 @@ form>.user-input-row{
     margin-left: 4%;
 }
 
-button:hover{
-    box-shadow: 0 0 0 2px #000000;
-}
 
 .form-step-active{
     display: block;
@@ -163,7 +172,17 @@ button:hover{
     font-size: 1.1em;
 }
 
+
+
 .user-input-finish{
     margin-top: 4%;
     
+}
+
+a{
+    color: #cceeef;
+}
+
+a:hover{
+    color: #002223;
 }
