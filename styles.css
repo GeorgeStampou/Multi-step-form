@@ -86,7 +86,7 @@ div>.user-input-row{
     margin-right: 4%;
 }
 
-.user-input>input, .inputs>input{
+.user-input>input, .input-group>input{
     height: 30px;
     width: 90%;
     padding: 0.5%;
@@ -100,7 +100,7 @@ div>.user-input-row{
     justify-content: space-between;
 }
 
-#inputs{
+#input-group{
     display: flex;
     flex-direction: row;
 }
@@ -185,4 +185,12 @@ a{
 
 a:hover{
     color: #002223;
+}
+
+.invalid{
+    border: 3px solid red;
+}
+
+.valid{
+    border: 3px solid green;
 }
