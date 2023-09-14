@@ -35,10 +35,11 @@ body{
     justify-content: center;
     min-height: 100vh;
     background: linear-gradient(120deg, #02aab0, #00cdac);
+    
 }
 
 .container{
-    background-color: rgba(35, 50, 64, 0.4);
+    background-color: rgba(35, 50, 64, 0.2);
     width: 350px;
     height: 340px;
     padding: 1% 2%;
