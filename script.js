@@ -39,24 +39,21 @@ function checkValidity(inputElements){
 
 function checkPass(inputElements){
     
-    let count = 0;
     let passwordValue = "";
-    let repeatPassValue = "a";
+    let repeatPassValue = "nopass";
     let repeatPassElement;
     let index = 0;
     for (const input of inputElements){
         if(input.name === "password"){
             passwordValue  = input.value;
-            count += 1;
         } else if(input.name === "repeat-pass"){
             repeatPassElement = input;
             repeatPassValue = input.value;
-            count += 1;
             index = inputElements.indexOf(input);
         }
     }
 
-    if (count == 0){
+    if (repeatPassValue === "nopass"){
         return true;
     }
     let valid = (passwordValue === repeatPassValue);
@@ -68,17 +65,13 @@ function checkPass(inputElements){
         inputElements[index].classList.add("valid");
         repeatPassElement.setCustomValidity("");
         
-
     } else{
         inputElements[index].classList.add("invalid");
         repeatPassElement.setCustomValidity("Password do not match!");
         
-        
     }
 
     repeatPassElement.reportValidity();
-
-    console.log("pass is " + valid);
     return valid;
 
 }

@@ -7,28 +7,6 @@
     
 }
 
-input{
-    border: 1px solid;
-    border-radius: 3px;
-    background-color: #cceeef;
-    
-}
-
-
-button{
-    border: 1px solid;
-    border-radius: 3px;
-    background-color: #013335;
-    color: #cceeef;
-}
-
-button:hover{
-    background-color: #cceeef;
-    color: #013335;
-    box-shadow: 0 0 0 2px #000000;
-    transition: 0.3s;
-}
-
 body{
     display: flex;
     align-items: center;
@@ -48,15 +26,36 @@ body{
     
 }
 
-h1, h3{
+input{
+    border: 1px solid;
+    border-radius: 3px;
+    background-color: #cceeef;
+    
+}
+
+button{
+    border: 1px solid;
+    border-radius: 3px;
+    background-color: #013335;
+    color: #cceeef;
+}
+
+button:hover{
+    background-color: #cceeef;
+    color: #013335;
+    box-shadow: 0 0 0 2px #000000;
+    transition: 0.3s;
+}
+
+h1, h2{
     text-align: center;
 }
 
-h1{
+h2{
     font-size: 1.2em;
 }
 
-h3{
+h1{
     font-size: 1.4em;
 }
 
@@ -137,8 +136,6 @@ div>.user-input-row{
     margin-top: 8.5%;
 }
 
-
-
 .btn-box-form1{
     display: flex;
     justify-content: flex-end;
@@ -159,7 +156,6 @@ div>.user-input-row{
     margin-left: 4%;
 }
 
-
 .form-step-active{
     display: block;
 }
@@ -173,11 +169,8 @@ div>.user-input-row{
     font-size: 1.1em;
 }
 
-
-
 .user-input-finish{
-    margin-top: 4%;
-    
+    margin-top: 4%;    
 }
 
 a{
