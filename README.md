@@ -41,7 +41,7 @@ To use the Multi-step Form locally, follow these steps:
 
 ## Screenshots
 ![image](https://github.com/GeorgeStampou/Multi-step-form/assets/58564542/9e2a336f-8e14-49be-8ab1-63068d87cfb1)
-![image](https://github.com/GeorgeStampou/Multi-step-form/assets/58564542/f10ddade-5395-404e-b18e-7e0806316608)
+![image](https://github.com/GeorgeStampou/Multi-step-form/assets/58564542/2add323d-40ea-45cb-b2c7-f39d80cba3bd)
 ![image](https://github.com/GeorgeStampou/Multi-step-form/assets/58564542/ec421b15-e5f6-48ef-bc94-54fd70643ff8)
 
 
