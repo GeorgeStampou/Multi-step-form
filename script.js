@@ -9,9 +9,7 @@ functions for validation, changes to previous, and submit at the end.  */
 multiForm.addEventListener("click", event =>{
     
     const inputElements = [...forms[formcounter].querySelectorAll("input")];
-    inputElements.forEach( (input)=>{
-        user[input.name] = input.value;
-    })
+    
     if(event.target.matches("[next]") && checkValidity(inputElements) && checkPass(inputElements)){
         formcounter += 1;
     } else if(event.target.matches("[previous]")){
