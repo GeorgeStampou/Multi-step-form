@@ -7,14 +7,16 @@ let formcounter = 0;
 /* on click function, takes all the input elements of current step form, changes to next form after checking with two
 functions for validation, changes to previous, and submit at the end.  */
 multiForm.addEventListener("click", event =>{
-
-    const inputElements = [...forms[formcounter].querySelectorAll("input")];
     
+    const inputElements = [...forms[formcounter].querySelectorAll("input")];
+    inputElements.forEach( (input)=>{
+        user[input.name] = input.value;
+    })
     if(event.target.matches("[next]") && checkValidity(inputElements) && checkPass(inputElements)){
         formcounter += 1;
     } else if(event.target.matches("[previous]")){
         formcounter -= 1;
-    } else if(event.target.matches("#finish-button") && checkValidity(forms)){
+    } else if(event.target.matches("#finish-button") && checkValidity(inputElements)){
         multiForm.submit();
     } else return
     
