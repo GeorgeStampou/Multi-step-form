@@ -15,7 +15,7 @@ The user registration form, **Multi-step Form**, is a multi-step registration fo
 
 - **Terms of Service**: Users are required to accept the platform's Terms of Service to complete the registration.
 
-##InstallNation
+## Installation
 
 To use the Multi-step Form locally, follow these steps:
 
@@ -28,7 +28,7 @@ To use the Multi-step Form locally, follow these steps:
    
    ```bash
    cd Multi-step-form-main
-3. Open the index.html file in your web browser.
+3. Open the `index.html` file in your web browser.
 
 ## Usage
 
